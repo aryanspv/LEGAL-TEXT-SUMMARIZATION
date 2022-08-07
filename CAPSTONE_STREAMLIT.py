@@ -98,6 +98,8 @@ def main():
                     return summary
                 summary = summarize(data,0.1)
                 st.write(summary)
+    else:            
+        st.warning("Please Upload a CSV file")    
 if __name__ == '__main__':
     main()
 
